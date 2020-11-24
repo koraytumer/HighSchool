@@ -1,0 +1,274 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8E7EE9AE-8794-4798-BE6F-E2FF5880FEF2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HighSchool</RootNamespace>
+    <AssemblyName>HighSchool</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v19.2" />
+    <Reference Include="DevExpress.Charts.v19.2.Core, Version=19.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v19.2" />
+    <Reference Include="DevExpress.Dialogs.v19.2.Core, Version=19.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v19.2" />
+    <Reference Include="DevExpress.Sparkline.v19.2.Core" />
+    <Reference Include="DevExpress.Utils.v19.2.UI, Version=19.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v19.2, Version=19.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v19.2, Version=19.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v19.2.UI, Version=19.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v19.2.Wizard, Version=19.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraDialogs.v19.2, Version=19.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v19.2" />
+    <Reference Include="DevExpress.Printing.v19.2.Core" />
+    <Reference Include="DevExpress.XtraGrid.v19.2, Version=19.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraLayout.v19.2, Version=19.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v19.2, Version=19.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraTreeList.v19.2, Version=19.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormGraphics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGraphics.Designer.cs">
+      <DependentUpon>FormGraphics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPrincipal.Designer.cs">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormStudentsA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormStudentsA.Designer.cs">
+      <DependentUpon>FormStudentsA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormStudentsB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormStudentsB.Designer.cs">
+      <DependentUpon>FormStudentsB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormStudentsC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormStudentsC.Designer.cs">
+      <DependentUpon>FormStudentsC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormStudentsD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormStudentsD.Designer.cs">
+      <DependentUpon>FormStudentsD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTeachersMath.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTeachersMath.Designer.cs">
+      <DependentUpon>FormTeachersMath.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HighSchoolDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HighSchoolDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HighSchoolDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HighSchoolDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HighSchoolDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HighSchoolDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HighSchoolDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HighSchoolDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HighSchoolDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HighSchoolDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormGraphics.resx">
+      <DependentUpon>FormGraphics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPrincipal.resx">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormStudentsA.resx">
+      <DependentUpon>FormStudentsA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormStudentsB.resx">
+      <DependentUpon>FormStudentsB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormStudentsC.resx">
+      <DependentUpon>FormStudentsC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormStudentsD.resx">
+      <DependentUpon>FormStudentsD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTeachersMath.resx">
+      <DependentUpon>FormTeachersMath.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.config" />
+    <None Include="HighSchoolDataSet.xsc">
+      <DependentUpon>HighSchoolDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="HighSchoolDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HighSchoolDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HighSchoolDataSet.xss">
+      <DependentUpon>HighSchoolDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="HighSchoolDataSet1.xsc">
+      <DependentUpon>HighSchoolDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="HighSchoolDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HighSchoolDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HighSchoolDataSet1.xss">
+      <DependentUpon>HighSchoolDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="HighSchoolDataSet2.xsc">
+      <DependentUpon>HighSchoolDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="HighSchoolDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HighSchoolDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HighSchoolDataSet2.xss">
+      <DependentUpon>HighSchoolDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="HighSchoolDataSet3.xsc">
+      <DependentUpon>HighSchoolDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="HighSchoolDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HighSchoolDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HighSchoolDataSet3.xss">
+      <DependentUpon>HighSchoolDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="HighSchoolDataSet4.xsc">
+      <DependentUpon>HighSchoolDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="HighSchoolDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HighSchoolDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HighSchoolDataSet4.xss">
+      <DependentUpon>HighSchoolDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Forma.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ServiceLayer\ServiceLayer.csproj">
+      <Project>{90d0c6df-078b-464c-928f-52d77965cb1e}</Project>
+      <Name>ServiceLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teacher_education.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add_Update.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\__question_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\data_graphic_web-512.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
