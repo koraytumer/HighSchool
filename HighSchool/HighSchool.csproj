@@ -263,6 +263,12 @@
   <ItemGroup>
     <None Include="Resources\data_graphic_web-512.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Photos\PrincipalGraphics.PNG" />
+    <Content Include="Photos\PrincipalUpdatePhoto.PNG" />
+    <Content Include="Photos\StudentsPhoto.PNG" />
+    <Content Include="Photos\TeacherPhoto.PNG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
