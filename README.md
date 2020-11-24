@@ -1,2 +1,1 @@
-# denemeUygulamasi
-Bu bir deneme uygulamasıdır.
+# HighSchool
