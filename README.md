@@ -1,6 +1,6 @@
 # HighSchool
 
-## Pictures from the Project
+## Screenshot
 
 ![](HighSchool/Photos/StudentsPhoto.PNG)
 ![](HighSchool/Photos/TeacherPhoto.PNG)
